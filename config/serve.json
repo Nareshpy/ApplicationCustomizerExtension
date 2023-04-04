@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://z6y42.sharepoint.com/sites/CommunicationSite1/SitePages/Field-Customizer-extension.aspx",
+      "customActions": {
+        "8368e27d-4bbe-4a20-8231-cf31ea36fb93": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "Top": "Top section of the page",
+            "Bottom": "Bottom section of the page"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://z6y42.sharepoint.com/sites/CommunicationSite1/SitePages/Field-Customizer-extension.aspx",
+      "customActions": {
+        "8368e27d-4bbe-4a20-8231-cf31ea36fb93": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "Top": "Top section of the page",
+            "Bottom": "Bottom section of the page"
+          }
+        }
+      }
+    }
+  }
+}
